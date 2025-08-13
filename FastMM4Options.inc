@@ -200,7 +200,7 @@ Set the default options for FastMM here.
 
 {Set this option to enable reporting of memory leaks. Combine it with the two
  options below for further fine-tuning.}
-{$define EnableMemoryLeakReporting}
+{.$define EnableMemoryLeakReporting}
 
   {Set this option to suppress the display and logging of expected memory leaks
    that were registered by pointer. Leaks registered by size or class are often
@@ -312,7 +312,7 @@ Set the default options for FastMM here.
  FreeMem routine. This incurs a big performance hit, but may be worthwhile for
  additional peace of mind when working with highly sensitive data. This option
  supersedes the ClearMemoryBeforeReturningToOS option.}
-{.$define AlwaysClearFreedMemory}
+{$define AlwaysClearFreedMemory}
 
 {----------------------------Lock Contention Logging--------------------------}
 
